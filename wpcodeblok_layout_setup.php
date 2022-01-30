@@ -1,11 +1,8 @@
 <?php
-/*
-* Hot keys: https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts
-*/ 
- 
 /**
- *   WPCodeBox Editor Custom layout
- */
+* WPCodeBox Editor Custom layout
+* Hot keys: https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts
+*/
 add_action('admin_head', function(){
     
     if( isset( $_GET['page'] ) && $_GET['page'] === 'wpcb_menu_page_php') {
