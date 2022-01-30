@@ -1,5 +1,9 @@
 <?php
 
+/*
+* Hot keys: https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts
+*/
+
 /**
  *   WPCodeBox Editor Custom layout
  */
