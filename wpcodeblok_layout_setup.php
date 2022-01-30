@@ -1,13 +1,11 @@
 <?php
-
 /*
 * Hot keys: https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts
-*/
-
+*/ 
+ 
 /**
  *   WPCodeBox Editor Custom layout
  */
- 
 add_action('admin_head', function(){
     
     if( isset( $_GET['page'] ) && $_GET['page'] === 'wpcb_menu_page_php') {
@@ -109,6 +107,10 @@ add_action('admin_head', function(){
         .list-actions > div > div{
             font-size: 8px !important;
         }
+        .update-nag, .notice {
+            display: none !important;
+        }
+        
         </style>
         
         <style type="text/css">
