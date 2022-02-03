@@ -107,6 +107,13 @@ add_action('admin_head', function(){
         .update-nag, .notice {
             display: none !important;
         }
+        .folder-title-container, 
+        .snippet-li-item, 
+        .snippet-li-item .cloud-delete, 
+        .snippet-li-item .cloud-download{
+            height: 16px !important;
+            min-height: 16px !important;
+        }
         
         </style>
         
